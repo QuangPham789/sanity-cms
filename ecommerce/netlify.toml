@@ -1,7 +1,9 @@
 [build]
-  base = ""
-  publish = "web/.next"
   command = "npm run build-all"
+  publish = "ecommerce/.next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [build.environment]
   NODE_VERSION = "20.18.1"

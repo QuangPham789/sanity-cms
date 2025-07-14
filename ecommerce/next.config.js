@@ -1,8 +1,8 @@
 const nextConfig = {
+    output: 'standalone',
     eslint: {
         ignoreDuringBuilds: true,
     },
-    reactStrictMode: true,
     async rewrites() {
         return [
             {
