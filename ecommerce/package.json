@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build-all": "npm run build-sanity && next build",
+    "build-all": " next build",
     "build-sanity": "cd sanity-studio && npm install && npm run build && rm -rf ../public/studio && cp -r dist ../public/studio",
     "build:next": "npm run build"
   },
