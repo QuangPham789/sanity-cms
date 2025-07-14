@@ -1,9 +1,9 @@
 import Footer from "@/components/Footer";
 import FooterBanner from "@/components/FooterBanner";
 import HeroBanner from "@/components/HeroBanner";
-import { client } from "@/lib/sanity-client";
-import { product } from "../../sanity-studio/schemaTypes/documents/product";
-import { productsQuery } from "@/lib/queries";
+// import { client } from "@/lib/sanity-client";
+// import { product } from "../../sanity-studio/schemaTypes/documents/product";
+// import { productsQuery } from "@/lib/queries";
 import { fetchBanners, fetchProducts, fetchStory } from "@/lib/sanity-fetch";
 import Product from "@/components/Product";
 import StoryLane from "@/components/StoryLane";
