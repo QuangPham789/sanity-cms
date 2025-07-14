@@ -1,0 +1,17 @@
+[build]
+  base = ""
+  publish = "web/.next"
+  command = "npm run build-all"
+
+[build.environment]
+  NODE_VERSION = "20.18.1"
+
+[[redirects]]
+  from = "/studio/*"
+  to = "/studio/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
