@@ -1,6 +1,6 @@
 [build]
   command = "npm run build-all"
-  publish = "ecommerce/.next"
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
